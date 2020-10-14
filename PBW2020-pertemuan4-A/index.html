@@ -1,0 +1,110 @@
+<!--Tag pembuka pada HTML-->
+    <html>
+    <head>
+        <link rel="icon" href="icon.png"> <!-- digunakan untuk menampilkan icon pada bar window -->
+        <title>Tugas Tabel</title>
+    </head>
+
+    <body>
+        <h1 align="center">DAFTAR HADIR</h1> <!-- digunakan untuk membuat heading 1 yaitu heading yang paling besar -->
+        <p align="center">PRAKTIKUM PEMROGRAMAN BERBASIS WEB</p> <!-- digunakan untuk membuat sub judul -->
+        <hr><br> <!-- <hr> digunakan untuk membuat garis horizontal dan <br> digunakan untuk membuat baris baru -->
+
+        <!-- Code dibawah merupakan struktur tabel DAFTAR HADIR. Tag <table> merupakan tag pembuka tabel -->
+        <table border="1" width='100%'> <!-- digunakan untuk membuat baris pertama yang digunakan sebagai header tabel -->
+            <tr bgcolor="#b1ff14"> <!-- <tr> digunakan untuk pembuka baris dan kode warna untuk background tabel baris pertama-->
+                <th rowspan="2" width="50px">No</th>  <!--digunakan untuk membuat kolom nomor dengan menggabungakan baris satu dan dua -->
+                <th rowspan="2">Nama</th>  <!-- digunakan untuk membuat kolom nama dengan menggabungakan baris satu dan dua -->
+                <th colspan="5">Pertemuan</th> <!--digunakan untuk membuat kolom Pertemuan dengan menggabungkan 5 kolom. 
+                colspan berfungsi untuk menggabungan kolom -->
+            </tr> <!-- </tr> digunakan untuk tag penutup baris-->
+            
+            <!-- Code di bawah ini merupakan struktur baris kedua dan termasuk ke dalam tabel header dengan menggunakan kode warna #b1ff14 untuk background -->
+            <tr bgcolor="#b1ff14" align="center">
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+            </tr>
+
+            <tr align="center">
+                <!-- Code di bawah ini adalah data absensi mahasiswa pertama yang dimulai pada baris ketiga.
+                tag <img> digunakan untuk menyisipkan foto berupa tanda tangan ke dalam tabel -->
+                <td>1</td>
+                <td>Johnny John Suh</td>
+                <td><img src="johns sign.jpeg" width="30px"></td>
+                <td>❌</td>
+                <td>❌</td>
+                <td><img src="johns sign.jpeg" width="30px"></td>
+                <td><img src="johns sign.jpeg" width="30px"></td>
+            </tr>
+
+            <!-- Code di bawah ini adalah data absensi mahasiswa kedua yang dimulai pada baris ketiga.
+                tag <img> digunakan untuk menyisipkan foto berupa tanda tangan ke dalam tabel -->
+            <tr align="center">
+                <td>2</td>
+                <td>Mark Anderson</td>
+                <td><img src="johns sign.jpeg" width="30px"></td>
+                <td><img src="johns sign.jpeg" width="30px"></td>
+                <td><img src="johns sign.jpeg" width="30px"></td>
+                <td>❌</td>
+                <td>❌</td>
+            </tr>
+
+            <!-- Code di bawah ini adalah data absensi mahasiswa ketiga yang dimulai pada baris ketiga -->
+            <tr align="center">
+                <td>3</td>
+                <td>Jeffrey Jung</td>
+                <td>❌</td>
+                <td>❌</td>
+                <td>❌</td>
+                <td>❌</td>
+                <td>❌</td>
+            </tr>
+
+            <!-- Code di bawah ini adalah data absensi mahasiswa keempat yang dimulai pada baris ketiga.
+                tag <img> digunakan untuk menyisipkan foto berupa tanda tangan ke dalam tabel -->
+            <tr align="center">
+                <td>4</td>
+                <td>Hendery Huang</td>
+                <td><img src="johns sign.jpeg" width="30px"></td>
+                <td><img src="johns sign.jpeg" width="30px"></td>
+                <td><img src="johns sign.jpeg" width="30px"></td>
+                <td><img src="johns sign.jpeg" width="30px"></td>
+                <td><img src="johns sign.jpeg" width="30px"></td>
+            </tr>
+
+            <!-- Code di bawah ini adalah data absensi mahasiswa kelima yang dimulai pada baris ketiga.
+                tag <img> digunakan untuk menyisipkan foto berupa tanda tangan ke dalam tabel -->
+            <tr align="center">
+                <td>5</td>
+                <td>Andy Park</td>
+                <td><img src="johns sign.jpeg" width="30px"></td>
+                <td>❌</td>
+                <td>❌</td>
+                <td><img src="johns sign.jpeg" width="30px"></td>
+                <td><img src="johns sign.jpeg" width="30px"></td>
+            </tr>
+        </table> <!--Tag yang digunakan untuk penutup tabel pertama-->
+
+        <br><!--digunakan untuk membuat baris baru-->
+
+        <table border="1">
+            <!-- Code dibawah ini merupakan struktur untuk keterangan absensi-->
+            <tr bgcolor="#b1ff14">
+                <th colspan="2">KETERANGAN</th> <!--digunakan untuk menggabungan kolom -->
+            </tr>
+       
+            <tr>
+                <td><img src="johns sign.jpeg" width="30px"></td>
+                <td>Hadir</td> <!-- digunakan untuk memberi keterangan hadir yaitu berupa foto tanda tangan -->
+            </tr>
+       
+            <tr>
+                <td align="center">❌</td>
+                <td>Tidak Hadir</td> <!-- digunakan untuk memberi keterangan tidak hadir yaitu berupa emoji x -->
+            </tr>
+        </table> <!--Tag yang digunakan untuk penutup tabel kedua-->
+    </body>
+</html> <!--Tag penutup pada HTML-->
