@@ -1,0 +1,64 @@
+<!--Tag pembuka pada HTML-->
+<html>
+    <head> <!-- digunakan untuk memuat informasi yang dibutuhkan dokumen -->
+        <title>Halaman Pendaftaran</title> <!-- judul yang nantinya ditambilkan pada bar browser -->
+        <link rel="stylesheet" href="css/style.css"/> <!-- digunakan untuk menghubungkan html dengan halaman css -->
+        <link href='icon.png' rel='shortcut icon'> <!-- digunakan untuk menampilkan icon pada bar window -->
+    </head>
+    <body> <!-- digunakan untuk membuat badan dari dokumen seperti judul, paragraf, gambar, hyperlink, tabel, daftar, dll -->
+        <div class="header"> <!-- digunakan untuk mengelompokkan elemen pada suatu grup juga mendefinisikan class dari css -->
+            <img src="header.png"> <!-- digunakan untuk menampilkan gambar dalam div -->
+            
+            <h2>Halaman Pendaftaran</h2><!-- digunakan untuk membaut heading judul -->
+            <p>Pendaftaran sebagai peserta dalam RAKERWIL (Rapat Kerja Wilayah) Bali dan Nusa Tenggara 2020</p>
+            <!-- digunakan untuk membuat paragraf -->
+        </div>
+        <form action="" method="post"> <!-- digunakan untuk membuat form -->
+            <input type="text" name="NamaLengkap" class="B1" placeholder="Nama Lengkap"/>
+            <!-- digunakan untuk menginput nama lengkap dengan tipe text pada class B1 -->
+            <input type="text" name="NamaPanggilan" class="B2" placeholder="Nama Panggilan"/>
+            <!-- digunakan untuk menginput nama panggilan dengan tipe text pada class B2-->
+            <input type="text" name="NoTelepon" class="B1" placeholder="No. Telepon"/>
+            <!-- digunakan untuk menginput nomor telepon dengan tipe text pada class B1 -->
+            <input type="email" name="Email" class="B2" placeholder="Email"/>
+            <!-- digunakan untuk menginput email dengan tipe email pada class B2 -->
+            <input type="number" name="TanggalLahir" class="C1" placeholder="Tanggal Lahir"/>
+            <!-- digunakan untuk menginput tanggal lahir dengan tipe number pada class C1 -->
+            <input type="text" name="TempatLahir" class="C2" placeholder="Tempat Lahir"/>
+            <!-- digunakan untuk menginput tempat lahir dengan tipe text pada class C2 -->
+
+            <select name="Agama" class="C3"> <!-- digunakan untuk memilih agama dengan tag <select> pada class C3 -->
+                <option value="Agama">Agama</option>
+                <option value="Islam">Islam</option>
+                <option value="Hindu">Hindu</option>
+                <option value="Kristen">Kristen</option>
+                <option value="Katolik">Katolik</option>
+                <option value="Budha">Budha</option>
+                <option value="Konghucu">Konghucu</option>
+            </select>
+
+            <input type="text" name="universitas" class="C1" placeholder="Universitas"/>
+            <!-- digunakan untuk menginput nama universitas dengan tipe text pada class C1 -->
+            <input type="text" name="fakultasJurusan" class="C2" placeholder="Fakultas/Jurusan"/>
+            <!-- digunakan untuk fakultas/jurusan dengan tipe text pada class C2 -->
+            <input type="text" name="jabatan" class="C3" placeholder="Jabatan"/>
+            <!-- digunakan untuk menginput jabatan dengan tipe text pada class C3-->
+            <input type="text" name="alamatAsal" class="A1" placeholder="Alamat Asal"/>
+            <!-- digunakan untuk menginput alamat asal dengan tipe text pada class A -->
+            <br><br>
+        
+            <label class="choose">Foto Almameter</label>
+            <!-- digunakan untuk menampilkan keterangan nama file dari file yang akan diinputkan -->
+            <label class="choose">Scan KTP</label>
+            <br>
+            
+            <input type="file" class="choose"/> 
+            <!-- digunakan untuk mengupload file -->
+            <input type="file" class="choose2"/>
+            <br>
+            
+            <input type="submit" value="Daftar" class="submit"/>
+            <!-- digunakan untuk menampilkan tombol daftar dengan tipe submit -->
+        </form>
+    </body>
+</html> <!--Tag penutup pada HTML-->

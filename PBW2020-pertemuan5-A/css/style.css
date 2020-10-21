@@ -1,0 +1,111 @@
+.header img{
+    /*digunakan untuk mengatur ukuran lebar margin dan gambar, dan tinggi gambar */
+    margin: 0 auto;
+    width: 1350px;
+    height: 200px;
+}
+.header h2{
+    /* digunakan untuk mendesain h2 (ukuran font, margin, warna dan jenis font) */
+    position: absolute;
+    font-size: 50px;
+    top: 23px;
+    left: 193px;
+    color: white;
+    font-family: 'Segoe UI',sans-serif;
+}
+
+.header p{
+    /* digunakan untuk mendesain pargraf (ukuran font, margin, warna dan jenis font) */
+    position: absolute;
+    font-size: 20px;
+    top: 102px;
+    left: 195px;
+    color: white;
+    font-family: 'Segoe UI',sans-serif;
+}
+
+.A1{
+    /* digunakan untuk mendesain tag-tag pada class A1 */
+    margin: 5px 5px 5px 190px;
+    width: 70.6%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    font: 11px "Segoe UI" sans-serif;   
+}
+
+.B1{ 
+    /* digunakan untuk mendesain margin, lebar box, ukuran & warna border, padding dan font yang ada didalam box */
+    margin: 5px 5px 5px 190px;
+    width: 35%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    font: 11px "Segoe UI" sans-serif;
+}
+
+.B2{
+    /* digunakan untuk mendesain tag-tag pada class B2 */
+    margin: 5px 0px 5px 0px;
+    width: 35%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    font: 11px "Segoe UI" sans-serif;
+}
+
+.C1{
+    /* digunakan untuk mendesain tag-tag pada class C1 */
+    margin: 5px 5px 5px 190px;
+    width: 23%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    font: 11px "Segoe UI" sans-serif;
+}
+
+.C2{
+    /* digunakan untuk mendesain tag-tag pada class C2 */
+    margin: 5px 5px 5px 0px;
+    width: 23%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    font: 11px "Segoe UI" sans-serif;
+}
+
+.C3{
+    /* digunakan untuk mendesain tag-tag pada class C3*/
+    margin: 5px 0px 5px 0px;
+    width: 23.3%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    font: 11px "Segoe UI" sans-serif;
+}
+.choose{
+    /* digunakan untuk mendesain margin pada tag yang menggunakan class choose */
+    margin: 5px 0px 5px 190px
+}
+
+.choose2{
+    /* digunakan untuk mendesain margin pada tag yang menggunakan class choose2 */
+    margin: 5px 0px 5px 42px
+}
+
+.submit{
+    /* digunakan untuk mendesain background, padding, ukuran dan warna border, dan font yang digunakan pada box submit*/
+    background: purple;
+    padding: 6px 10px 6px 10px;
+    border: 2px solid purple;
+    border-radius: 3px;
+    color: white;
+    font-family: "Segoe UI" sans-serif;
+    margin: 5px 0px 5px 190px
+}
