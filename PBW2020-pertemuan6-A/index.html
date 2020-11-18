@@ -1,0 +1,62 @@
+<!--Tag pembuka pada HTML-->
+<html> 
+<head> <!-- digunakan untuk memuat informasi yang dibutuhkan dokumen -->
+    <title>Kalkulator</title> <!-- judul yang nantinya ditambilkan pada bar browser -->
+    <link rel="stylesheet" type="text/css" href="css/style.css"> <!-- digunakan untuk menghubungkan html dengan halaman css -->
+    
+    <!-- digunakan untuk menyisipkan atau menulis script (seperti JavaScript) pada sisi client -->
+    <script language="JavaScript" type="text/javascript"> 
+        // function ini digunakan untuk melakukan operasi penjumlahan dengan mengambil nilai bil1 dan bil2 sehingga menghasilkan hasil operasi penjumlahan
+        function tambah(){
+            var bil1 = parseFloat(document.getElementById("bil1").value);
+            var bil2 = parseFloat(document.getElementById("bil2").value);
+            var hasil = document.getElementById("hasil");
+            var total;
+            total=bil1+bil2;
+            hasil.value=total;
+        }
+        // function ini digunakan untuk melakukan operasi pengurangan dengan mengambil nilai bil1 dan bil2 sehingga menghasilkan hasil operasi pengurangan
+        function kurang(){
+            var bil1 = parseFloat(document.getElementById("bil1").value);
+            var bil2 = parseFloat(document.getElementById("bil2").value);
+            var hasil = document.getElementById("hasil");
+            var total;
+            total=bil1-bil2;
+            hasil.value=total;
+        }
+        // function ini digunakan untuk melakukan operasi perkalian dengan mengambil nilai bil1 dan bil2 sehingga menghasilkan hasil operasi perkalian
+        function kali(){
+            var bil1 = parseFloat(document.getElementById("bil1").value);
+            var bil2 = parseFloat(document.getElementById("bil2").value);
+            var hasil = document.getElementById("hasil");
+            var total;
+            total=bil1*bil2;
+            hasil.value=total;
+        }
+        // function ini digunakan untuk melakukan operasi pembagian dengan mengambil nilai bil1 dan bil2 sehingga menghasilkan hasil operasi pembagian
+        function bagi(){
+            var bil1 = parseFloat(document.getElementById("bil1").value);
+            var bil2 = parseFloat(document.getElementById("bil2").value);
+            var hasil = document.getElementById("hasil");
+            var total;
+            total=bil1/bil2;
+            hasil.value=total;
+        } 
+    </script>
+
+	<form name="Kalkulator"> 
+     <!-- digunakan untuk membuat name form berupa Kalkulator-->
+      <table style="margin-left:auto;margin-right:auto" class="table">
+        <tr><td colspan="3" align ="center"><h1>Kalkulator</h1></td></tr>
+        <td><input type="number" id="bil1" placeholder="Bilangan 1"> <!-- digunakan untuk menginputkan bilangan 1--> 
+        <input class="operator" type="button" onclick="tambah()" value="  +  "> <!-- digunakan untuk memanggil function tambah--> 
+        <input class="operator" type="button" onclick="kurang()" value="  -  "> <!-- digunakan untuk memanggil function kurang--> 
+        </td></tr>
+        <td><input type="number" id="bil2" placeholder="Bilangan 2"> <!-- digunakan untuk menginputkan bilangan 2--> 
+        <input class="operator" type="button" onclick="kali()" value="  x  "> <!-- digunakan untuk memanggil function kali--> 
+        <input class="operator" type="button" onclick="bagi()" value="  /  "> <!-- digunakan untuk memanggil function bagi--> 
+        </td></tr>
+        </td><td><input type="number" id="hasil" placeholder="Hasil"></td></tr> <!-- digunakan untuk menampilkan hasil operasi matematika-->
+      </table>
+    </form>
+</html> <!--Tag penutup pada HTML-->
