@@ -1,0 +1,23 @@
+/* untuk mengatur style class operator yaitu mengatur warna background, ukuran font dan jenis font, margin, padding dan ukuran background */
+.input{ 
+	background-color: #EBA7AC;
+    font-size:13pt;
+    font-family: "Lucida Sans Unicode" sans-serif;
+    margin:100px;
+    padding:50px;
+    background-size: 100%
+    }
+/* untuk mengatur style class table yaitu mengatur warna, ukuran font, jenis font, warna background, margin, padding dan ukuran background */
+.output{
+     color: black; 
+     font-size:14pt;
+     font-family: "Lucida Sans Unicode" sans-serif;
+     background-color: #EBA7AC; 
+     margin:100px;
+     padding:50px;
+     background-size: 100%
+    }
+/* untuk mengatur style dari body */
+body{
+    background-color: #FEEAF4;
+}
